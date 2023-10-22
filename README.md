@@ -1,6 +1,6 @@
 <h1>CPSC 8710: Team Project</h1>
 
-<h1>PROJECT NAME: Ghost in the Machine: A Halloween Hangman for Devs</h1>
+<h1>PROJECT TITLE: Ghost in the Machine: A Halloween Hangman for Devs</h1>
 
 <h2>GAME OBJECTVE & RULES:</h2>
 
