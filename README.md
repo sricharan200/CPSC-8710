@@ -10,9 +10,13 @@ The primary goal of the Halloween Hangman Game, "Ghost in the Machine: A Hallowe
 The rules of the game are as follows:
 
 a.) The game revolves around guessing a hidden word based on provided hints.
+
 b.) Players are allowed a maximum of six incorrect guesses before the game ends.
+
 c.) Each incorrect guess reveals a part of a hangman figure on the screen.
+
 d.) If the player accumulates six incorrect guesses, the complete hangman is displayed, resulting in a game over.
+
 e.) To win, the player must successfully guess the word by making all the correct guesses.
 
 <h2>TECHNOLOGY STACK USED: </h2>
@@ -34,13 +38,17 @@ Setting up and deploying the Halloween Hangman game, "Ghost in the Machine: A Ha
 <h4>Setup Instructions:</h4> 
 
 a.) Ensure to have an editor installed on your machine, such as Visual Studio Code, Sublime Text, etc.
+
 b.) Download all the game files, which include HTML, CSS, Javascript, and other image-related files, on your local machine.
+
 c.) Put all the game-related files in a single folder or directory to maintain an organized project structure.
 
 <h4>Deployment Instructions:</h4>
 
 a.) Log in to your GitHub account and click on the "+" icon in the upper right corner to create a new repository.
+
 b.) Choose a name for your repository. And choose the access, whether it is public or private. This project is public.
+
 c.) Add a readme file and click on Create a repository. Now, a new repository has been created.
 
 
