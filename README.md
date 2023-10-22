@@ -25,7 +25,7 @@ b.) CSS: Expanded as Cascading Style Sheets CSS imparts a layer that ensures a v
 
 c.) JavaScript: Javascript plays a pivotal role in creating a dynamic and engaging user experience. It takes care of the game mechanics, such as choosing the words for the players to guess, keeping track of correct and incorrect guessing, and revealing the hangman figure for each mistake accumulated. Javascript is also responsible for determining the game outcomes, whether the player has successfully guessed the word or accumulated incorrect guesses, and creating a dynamic countdown timer for a page (this enhances the user experience and sense of anticipation). Event handlers are the driving force behind the user interactions and game-flow of the Halloween Hangman game.
 
-
+The combination of HTML, CSS, and Javascript provides an unforgettable gaming experience. This shows the dynamic capabilities of this trio, which shows how they work together to build an engaging and appealing Halloween-themed Hangman game
 
 
 
