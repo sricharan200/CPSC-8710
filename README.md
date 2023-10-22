@@ -27,8 +27,21 @@ c.) JavaScript: Javascript plays a pivotal role in creating a dynamic and engagi
 
 The combination of HTML, CSS, and Javascript provides an unforgettable gaming experience. This shows the dynamic capabilities of this trio, which shows how they work together to build an engaging and appealing Halloween-themed Hangman game
 
+<h2>SETUP AND DEPLOYMENT INSTRUCTIONS:</h2>
 
+Setting up and deploying the Halloween Hangman game, "Ghost in the Machine: A Halloween Hangman for Devs," is a simple process. Below are the step-by-step instructions:
 
+<h4>Setup Instructions:</h4> 
+
+a.) Ensure to have an editor installed on your machine, such as Visual Studio Code, Sublime Text, etc.
+b.) Download all the game files, which include HTML, CSS, Javascript, and other image-related files, on your local machine.
+c.) Put all the game-related files in a single folder or directory to maintain an organized project structure.
+
+<h4>Deployment Instructions:</h4>
+
+a.) Log in to your GitHub account and click on the "+" icon in the upper right corner to create a new repository.
+b.) Choose a name for your repository. And choose the access, whether it is public or private. This project is public.
+c.) Add a readme file and click on Create a repository. Now, a new repository has been created.
 
 
 
