@@ -76,7 +76,7 @@ const wordList = [
         hint: " In version control systems like Git, branching involves creating a separate line of development for a specific feature or bug fix."
     },
     {
-        word: "devOps",
+        word: "devops",
         hint: "A set of practices that combines development (Dev) and IT operations (Ops) to improve the efficiency and automation of the software development lifecycle."
     },
     {
