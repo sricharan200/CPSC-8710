@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Countdown Page</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #F75F1C, #000000);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .countdown {
+            text-align: center;
+            font-size: 24px;
+        }
+
+        #timer {
+            font-size: 48px;
+            font-weight: bold;
+        }
+        .halloween-emoji {
+            font-size: 78px; 
+            position: absolute;
+        }
+
+        
+        .top-left {
+            top: 10px;
+            left: 10px;
+        }
+
+        .top-right {
+            top: 10px;
+            right: 10px;
+        }
+
+        .bottom-left {
+            bottom: 10px;
+            left: 10px;
+        }
+
+        .bottom-right {
+            bottom: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="countdown">
+        <h1>Put on your thinking capes, the word magic is about to begin!🧙‍♂️🎃</h1>
+        <div id="timer">5</div>
+    </div>
+    <div class="halloween-emoji top-left">🎃</div>
+    <div class="halloween-emoji top-right">🎃</div>
+    <div class="halloween-emoji bottom-left">🎃</div>
+    <div class="halloween-emoji bottom-right">🎃</div>
+    <script>
+        const timerElement = document.getElementById('timer');
+        
+        function startCountdown() {
+            let count = 5;
+            timerElement.textContent = count;
+    
+            const countdownInterval = setInterval(() => {
+                count--;
+                if (count > 0) {
+                    timerElement.textContent = count;
+                } else {
+                    clearInterval(countdownInterval);
+                    setTimeout(() => {
+                        window.location.href = 'index.html'; 
+                    }, 300); 
+                }
+            }, 1000);
+        }
+    
+        window.onload = startCountdown;
+    </script>    
+</body>
+</html>

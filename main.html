@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <style>
+        body {
+            background-image: url("images/new1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .hangman-container {
+            background-color: black; 
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+            position: relative; 
+            opacity: 0;
+            animation: fadeIn 2s ease 1s forwards;
+        }
+
+        h1 {
+            color: #ffaa00; 
+            font-size: 36px;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 4px;
+            margin-bottom: 20px;
+            font-style: italic; 
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        p {
+            color: #333;
+            font-size: 18px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .button-container button {
+            background-color: #f5edc3; 
+            color: #ffaa00; 
+            border: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            margin-top: 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            animation: fadeIn 2s ease 2s forwards;
+        }
+
+        .button-container button:hover {
+            background-color: #fce46f; 
+        }
+
+        
+        .hangman-image {
+            max-width: 100px;
+            position: absolute;
+            top: -50px; 
+            left: calc(50% - 50px); 
+            z-index: 1; 
+        }
+
+    
+        .rules-popup {
+            display: none; 
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); 
+            z-index: 2; 
+            justify-content: center;
+            align-items: center;
+        }
+
+        .rules-content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: left;
+            max-width: 80%;
+            overflow-y: auto;
+            max-height: 80%;
+        }
+
+        .close-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hangman-container">
+        <h1>Ghost in the Machine: A Halloween Hangman for Devs</h1>
+        <div class="button-container">
+            <a href="second.html"><button>Start Game</button></a> 
+            <button id="showRulesButton"> How to Play </button> 
+        </div>
+        <p style="color: orange;">🖥️ Guess the word before it is too late! 🎃</p>
+    </div>
+    
+    
+    <div class="rules-popup" id="rulesPopup">
+        <div class="rules-content" style="background-color: orange">
+            <span class="close-button" id="closeRulesButton">×</span>
+            <h2>Rules of Hangman 👻🎃</h2>
+            <p>1. The game revolves around guessing a hidden word based on provided hints.</p>
+            <p>2. Players are allowed a maximum of six incorrect guesses before the game ends.</p>
+            <p>3. Each incorrect guess reveals a part of a hangman figure on the screen.</p>
+            <p>4. If the player accumulates six incorrect guesses, the complete hangman is displayed, resulting in a game over.</p>
+            <p>5. To win, the player must successfully guess the word by making all the correct guesses. </p>
+            <p>6. The game offers an engaging and enjoyable way to test your word-guessing skills. </p>
+        </div>
+    </div>
+
+    <script>
+        
+        const showRulesButton = document.getElementById("showRulesButton");
+        const rulesPopup = document.getElementById("rulesPopup");
+        const closeRulesButton = document.getElementById("closeRulesButton");
+
+        showRulesButton.addEventListener("click", () => {
+            rulesPopup.style.display = "block";
+        });
+
+        closeRulesButton.addEventListener("click", () => {
+            rulesPopup.style.display = "none";
+        });
+
+        
+        window.addEventListener("click", (event) => {
+            if (event.target == rulesPopup) {
+                rulesPopup.style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html>
+
