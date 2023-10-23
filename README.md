@@ -34,7 +34,7 @@ a.) HTML: Expanded as Hyper Text Markup Language It establishes the structural a
 
 b.) CSS: Expanded as Cascading Style Sheets CSS imparts a layer that ensures a visually appealing and responsive design, which puts the players in the atmosphere of Halloween. CSS is involved in everything from the choice of background images to font styles, animations, and button designs, which gives the game a thematic and visually enchanting design.
 
-c.) JavaScript: Javascript plays a pivotal role in creating a dynamic and engaging user experience. It takes care of the game mechanics, such as choosing the words for the players to guess, keeping track of correct and incorrect guessing, and revealing the hangman figure for each mistake accumulated. Javascript is also responsible for determining the game outcomes, whether the player has successfully guessed the word or accumulated incorrect guesses, and creating a dynamic countdown timer for a page (this enhances the user experience and sense of anticipation). Event handlers are the driving force behind the user interactions and game-flow of the Halloween Hangman game.
+c.) JavaScript: Javascript plays a pivotal role in creating a dynamic and engaging user experience. It takes care of the game mechanics, such as choosing the words for the players to guess, keeping track of correct and incorrect guessing, and revealing the hangman figure for each mistake accumulated. Javascript is also responsible for determining the game outcomes, whether the player has successfully guessed the word or accumulated incorrect guesses, and creating a dynamic countdown timer for a page (this enhances the user experience and sense of anticipation). Event handlers are the driving force behind the user interactions and game flow of the Halloween Hangman game.
 
 The combination of HTML, CSS, and Javascript provides an unforgettable gaming experience. This shows the dynamic capabilities of this trio, which shows how they work together to build an engaging and appealing Halloween-themed Hangman game
 
@@ -57,6 +57,8 @@ a.) Log in to your GitHub account and click on the "+" icon in the upper right c
 b.) Choose a name for your repository. And choose the access, whether it is public or private. This project is public.
 
 c.) Add a readme file and click on Create a repository. Now, a new repository has been created.
+
+d.) We have cloned the repository using the URL provided. Then, we used git commit, add, and push to publish the all files to the repository.
 
 
 <h4>🎊Credits for third-party assets and code</h4>
