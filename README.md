@@ -35,7 +35,7 @@ The combination of HTML, CSS, and Javascript provides an unforgettable gaming ex
 
 Setting up and deploying the Halloween Hangman game, "Ghost in the Machine: A Halloween Hangman for Devs," is a simple process. Below are the step-by-step instructions:
 
-<h4>Setup Instructions:</h4> 
+<h4>🛠️Setup Instructions:</h4> 
 
 a.) Ensure to have an editor installed on your machine, such as Visual Studio Code, Sublime Text, etc.
 
@@ -43,7 +43,7 @@ b.) Download all the game files, which include HTML, CSS, Javascript, and other 
 
 c.) Put all the game-related files in a single folder or directory to maintain an organized project structure.
 
-<h4>Deployment Instructions:</h4>
+<h4>🚀Deployment Instructions:</h4>
 
 a.) Log in to your GitHub account and click on the "+" icon in the upper right corner to create a new repository.
 
@@ -52,7 +52,7 @@ b.) Choose a name for your repository. And choose the access, whether it is publ
 c.) Add a readme file and click on Create a repository. Now, a new repository has been created.
 
 
-<h4>Credits for third-party assets and code</h4>
+<h4>🎊Credits for third-party assets and code</h4>
 
 The Halloween Hangman game has a few third-party assets and codes:
 a.) Halloween Themed images: https://utimaco.com/current-topics/blog/cybersecurity-stories-that-will-haunt-ciso and https://www.dreamstime.com/image-highly-suitable-all-your-creative-needs-very-high-quality-design-pumpkin-patch-themed-whimsical-halloween-image283194692
