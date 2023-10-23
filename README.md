@@ -2,6 +2,8 @@
 
 <h1>PROJECT TITLE: Ghost in the Machine: A Halloween Hangman for Devs</h1>
 
+<h1>To access the game: https://sricharan200.github.io//CPSC-8710/main.html</h1>
+
 <h2>🧠GAME OBJECTVE & RULES:</h2>
 
 <h4>🎯GAME OBJECTIVE: </h4>
