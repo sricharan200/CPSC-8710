@@ -12,7 +12,7 @@
 <h2>🧠GAME OBJECTVE & RULES:</h2>
 
 <h4>🎯GAME OBJECTIVE: </h4>
-The primary goal of the Halloween Hangman Game, "Ghost in the Machine: A Halloween Hangman for Devs", is to engage players in a fun and challenging word-guessing experience with a Halloween theme, and the questions are focused on the topic of software engineering. The game objective is pretty straightforward; the player must rely on the hints provided and guess the hidden word before making six incorrect guesses, which would lead the player to a game over.
+The primary goal of the Halloween Hangman Game, "Ghost in the Machine: A Halloween Hangman for Devs", is to engage players in a fun and challenging word-guessing experience with a Halloween theme, and the questions are focused on the topic of software engineering. The game objective is pretty straightforward; the player must rely on the hints provided and guess the hidden word before making six incorrect guesses, which would lead the player to a game over. This game can also be used as an introductory quiz-like game in a software engineering class.
 <h4>📢RULES: </h4>
 The rules of the game are as follows:
 
