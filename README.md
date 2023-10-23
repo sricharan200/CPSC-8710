@@ -58,7 +58,7 @@ b.) Choose a name for your repository. And choose the access, whether it is publ
 
 c.) Add a readme file and click on Create a repository. Now, a new repository has been created.
 
-d.) We have cloned the repository using the URL provided. Then, we used git commit, add, and push to publish the all files to the repository.
+d.) We have cloned the repository using the URL provided. Then, we used git commands like commit, add, and push to publish the all files to the repository.
 
 
 <h4>🎊Credits for third-party assets and code</h4>
