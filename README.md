@@ -4,6 +4,11 @@
 
 <h1>To access the game: https://sricharan200.github.io//CPSC-8710/main.html</h1>
 
+<h2>Team Members:</h2>
+<h3>a.) Sricharan Nibhanupudi</h3>
+<h3>b.) Atharva S Ranade</h3>
+<h3>c.) Hemanth Reddy Dasari</h3>
+
 <h2>🧠GAME OBJECTVE & RULES:</h2>
 
 <h4>🎯GAME OBJECTIVE: </h4>
