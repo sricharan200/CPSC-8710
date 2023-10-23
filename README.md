@@ -4,7 +4,7 @@
 
 <h2>GAME OBJECTVE & RULES:</h2>
 
-<h4>GAME OBJECTIVE: </h4>
+<h4>🎯GAME OBJECTIVE: </h4>
 The primary goal of the Halloween Hangman Game, "Ghost in the Machine: A Halloween Hangman for Devs", is to engage players in a fun and challenging word-guessing experience with a Halloween theme, and the questions are focused on the topic of software engineering. The game objective is pretty straightforward; the player must rely on the hints provided and guess the hidden word before making six incorrect guesses, which would lead the player to a game over.
 <h4>RULES: </h4>
 The rules of the game are as follows:
@@ -19,7 +19,7 @@ d.) If the player accumulates six incorrect guesses, the complete hangman is dis
 
 e.) To win, the player must successfully guess the word by making all the correct guesses.
 
-<h2>TECHNOLOGY STACK USED: </h2>
+<h2>💻TECHNOLOGY STACK USED: </h2>
 
 The Halloween Hangman Game uses a captivating technology stack, with HTML and CSS playing instrumental roles alongside Javascript. 
 
@@ -31,7 +31,7 @@ c.) JavaScript: Javascript plays a pivotal role in creating a dynamic and engagi
 
 The combination of HTML, CSS, and Javascript provides an unforgettable gaming experience. This shows the dynamic capabilities of this trio, which shows how they work together to build an engaging and appealing Halloween-themed Hangman game
 
-<h2>SETUP AND DEPLOYMENT INSTRUCTIONS:</h2>
+<h2>⚙ SETUP AND DEPLOYMENT INSTRUCTIONS:</h2>
 
 Setting up and deploying the Halloween Hangman game, "Ghost in the Machine: A Halloween Hangman for Devs," is a simple process. Below are the step-by-step instructions:
 
