@@ -60,6 +60,9 @@ a.) Halloween Themed images: https://utimaco.com/current-topics/blog/cybersecuri
 b.) https://www.codingnepalweb.com/build-hangman-game-html-javascript/: Used a certain part for reference
 
 
+<h2>***NOTE: A SHORT REFLECTION ON THE DESIGN AND DEVELOPMENT PROCESS, CHALLENGES AND LESSON TAKEAWAYS ARE IN A PDF FILE WHICH IS UPLOADED ABOVE***</h2>
+
+
 
 
 
