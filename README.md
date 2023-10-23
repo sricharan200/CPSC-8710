@@ -52,9 +52,12 @@ b.) Choose a name for your repository. And choose the access, whether it is publ
 c.) Add a readme file and click on Create a repository. Now, a new repository has been created.
 
 
+<h4>Credits for third-party assets and code</h4>
 
+The Halloween Hangman game has a few third-party assets and codes:
+a.) Halloween Themed images: https://utimaco.com/current-topics/blog/cybersecurity-stories-that-will-haunt-ciso and https://www.dreamstime.com/image-highly-suitable-all-your-creative-needs-very-high-quality-design-pumpkin-patch-themed-whimsical-halloween-image283194692
 
-
+b.) https://www.codingnepalweb.com/build-hangman-game-html-javascript/: Used a certain part for reference
 
 
 
