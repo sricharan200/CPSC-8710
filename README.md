@@ -70,6 +70,7 @@ b.) https://www.codingnepalweb.com/build-hangman-game-html-javascript/: Used a c
 
 
 <h2>***NOTE: A SHORT REFLECTION ON THE DESIGN AND DEVELOPMENT PROCESS, CHALLENGES AND LESSON TAKEAWAYS ARE IN A PDF FILE WHICH IS UPLOADED ABOVE***</h2>
+<h3>FILE IS NAMED AS PROJECT REPORT</h3>
 
 
 
