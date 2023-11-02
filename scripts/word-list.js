@@ -73,7 +73,7 @@ const wordList = [
     },
     {
         word: "branching",
-        hint: " In version control systems like Git, branching involves creating a separate line of development for a specific feature or bug fix."
+        hint: " In version control systems like Git, what involves creating a separate line of development for a specific feature or bug fix."
     },
     {
         word: "devops",
